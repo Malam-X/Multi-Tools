@@ -951,8 +951,8 @@ netsh wlan show profile
 			echo.
 			echo     [  Key Content is password  ]
 			echo.
-				set /p donesd=[+] Press any key to Continue: 
-					goto Main
+			pause
+				goto Main
 
 
 
